@@ -11,8 +11,9 @@
 		86C0E53421F8AF84007C9553 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 86C0E53321F8AF84007C9553 /* art.scnassets */; };
 		86C0E53621F8AF84007C9553 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C0E53521F8AF84007C9553 /* ViewController.swift */; };
 		86C0E53921F8AF84007C9553 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86C0E53721F8AF84007C9553 /* Main.storyboard */; };
-		86C0E53B21F8AF86007C9553 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86C0E53A21F8AF86007C9553 /* Assets.xcassets */; };
 		86C0E53E21F8AF86007C9553 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86C0E53C21F8AF86007C9553 /* LaunchScreen.storyboard */; };
+		86C0E54621F8B0AF007C9553 /* ProductInfo.sks in Resources */ = {isa = PBXBuildFile; fileRef = 86C0E54521F8B0AF007C9553 /* ProductInfo.sks */; };
+		86C0E54821F8B117007C9553 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86C0E54721F8B115007C9553 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,9 +22,10 @@
 		86C0E53321F8AF84007C9553 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		86C0E53521F8AF84007C9553 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		86C0E53821F8AF84007C9553 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		86C0E53A21F8AF86007C9553 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86C0E53D21F8AF86007C9553 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86C0E53F21F8AF86007C9553 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86C0E54521F8B0AF007C9553 /* ProductInfo.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ProductInfo.sks; sourceTree = "<group>"; };
+		86C0E54721F8B115007C9553 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +61,9 @@
 				86C0E53121F8AF84007C9553 /* AppDelegate.swift */,
 				86C0E53321F8AF84007C9553 /* art.scnassets */,
 				86C0E53521F8AF84007C9553 /* ViewController.swift */,
+				86C0E54521F8B0AF007C9553 /* ProductInfo.sks */,
 				86C0E53721F8AF84007C9553 /* Main.storyboard */,
-				86C0E53A21F8AF86007C9553 /* Assets.xcassets */,
+				86C0E54721F8B115007C9553 /* Assets.xcassets */,
 				86C0E53C21F8AF86007C9553 /* LaunchScreen.storyboard */,
 				86C0E53F21F8AF86007C9553 /* Info.plist */,
 			);
@@ -127,8 +130,9 @@
 			files = (
 				86C0E53421F8AF84007C9553 /* art.scnassets in Resources */,
 				86C0E53E21F8AF86007C9553 /* LaunchScreen.storyboard in Resources */,
-				86C0E53B21F8AF86007C9553 /* Assets.xcassets in Resources */,
+				86C0E54621F8B0AF007C9553 /* ProductInfo.sks in Resources */,
 				86C0E53921F8AF84007C9553 /* Main.storyboard in Resources */,
+				86C0E54821F8B117007C9553 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L792C3RSBQ;
 				INFOPLIST_FILE = "AR ShopEX/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,6 +312,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L792C3RSBQ;
 				INFOPLIST_FILE = "AR ShopEX/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
